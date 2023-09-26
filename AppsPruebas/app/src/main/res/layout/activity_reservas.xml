@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservas">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/reservas"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="131dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/pesos"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="131dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/pagado"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="131dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/pagado"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/repetir"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/repetir"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/reservar"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:text="@string/precio2"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:text="@string/precio3"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:background="@color/clear"
+        app:itemTextColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteY="845dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:text="@string/precio1"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:onClick="@string/cancelar"
+        android:text="@string/cancelar"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="758dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

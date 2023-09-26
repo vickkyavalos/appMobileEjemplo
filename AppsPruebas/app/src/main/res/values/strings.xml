@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Apps Pruebas</string>
+
+    <string name="Bienvenido_hotel">Bienvenido a Hotel California</string>
+    <string name="login">Login</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="user">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="registro">¿No tienes una cuenta? Registrate</string>
+    <string name="ingreseE">email@gmail.com</string>
+    <string name="ingreseC">Contraseña</string>
+    <string name="hotel">Hotel California</string>
+    <string name="Reserva">Reservar</string>
+    <string name="fechaI">Fecha de ingreso:</string>
+    <string name="fechaE">Fecha de salida:</string>
+    <string name="fecha">00/00/2023</string>
+    <string name="compra">compra</string>
+    <string name="perfil">Usuario</string>
+    <string name="notificacion">notificacion</string>
+    <string name="home">Inicio</string>
+    <string name="inicio">inicio</string>
+    <string name="reservar">Pagar +</string>
+    <string name="precio1">$1893.44</string>
+    <string name="precio2">$2500</string>
+    <string name="precio3">$6589,99</string>
+    <string name="reservas">Reservas</string>
+    <string name="pesos">Pesos</string>
+    <string name="pagado">Pagado</string>
+    <string name="repetir">Repetir +</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
